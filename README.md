@@ -1,16 +1,44 @@
-# React + Vite
+# 🎥 Peer.js Video Call App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive video calling application built with React and Peer.js that enables peer-to-peer video calls and real-time messaging directly in the browser.
 
-Currently, two official plugins are available:
+![Video Call App](https://img.shields.io/badge/Video-Call-blue) ![PeerJS](https://img.shields.io/badge/PeerJS-P2P-green) ![React](https://img.shields.io/badge/React-18.2-blue) ![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+Experience the application live: [**https://peer-js-video-call.netlify.app/**](https://peer-js-video-call.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 🎯 Core Functionality
+- **Peer-to-Peer Video Calls**: High-quality video calls using WebRTC
+- **Real-time Messaging**: Instant messaging during calls
+- **No Server Required**: Direct browser-to-browser communication
+- **Auto-generated Peer IDs**: Unique identifiers for each session
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 User Experience
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Modern UI**: Clean interface built with Tailwind CSS
+- **Connection Status**: Real-time connection indicators
+- **Copy to Clipboard**: Easy peer ID sharing
+- **Call Controls**: Start, end, and manage calls effortlessly
+
+### 🔧 Technical Features
+- **WebRTC Integration**: Secure peer-to-peer connections
+- **STUN Servers**: Enhanced connectivity across networks
+- **Media Stream Management**: Proper track cleanup and resource handling
+- **Error Handling**: Comprehensive error states and user feedback
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Modern web browser with camera and microphone access
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/peerjs-video-call.git
+   cd peerjs-video-call
